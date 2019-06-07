@@ -25,7 +25,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-info bg-light m-2"
+                <a href="#bio" class="nav-link text-info bg-light m-2"
                   >Biography</a
                 >
               </li>
@@ -35,21 +35,23 @@
       </div>
     </header>
 
-    <main>
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6">
+    <main class="container-fluid">
+      <div class="row align-items-center bg-secondary">
+        <div class="col-12 col-md-5">
           <div class="p-3">
-            <img
-              src="https://i.pinimg.com/originals/15/16/d2/1516d200bc990a80631496b7eb33ec78.jpg"
-              class="img-fluid"
-              alt="Profilbild"
-            />
-            <p><em>Sascha Hagemann</em></p>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/15/16/d2/1516d200bc990a80631496b7eb33ec78.jpg" class="card-img-top" alt="Profilbild">
+                    <div class="card-body">
+                        <h5 class="card-title">Weisheit des Tages</h5>
+                        <div class="card-text ">Es gibt keine scheiß Montage...</div>
+                        <div>...nur den falschen Beruf!</div>
+                    </div>
+                </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-7 p-5">
           <h3>Ferttigkeiten</h3>
-          <span class="badge badge-secondary">A</span>
+          <span class="badge badge-info">A</span>
           <span class="badge badge-secondary">B</span>
           <span class="badge badge-secondary">C</span>
           <h3>Kenntnisse</h3>
@@ -58,16 +60,113 @@
           <span class="badge badge-secondary">C</span>
         </div>
       </div>
-      <div class="row" id="kontakt">
+      <div class="row bg-info text-light" id="kontakt">
         <div class="col-12 col-md-6">
-          <h4>Kontakt tele</h4>
+            <div class="card bg-info border-light m-2 p-2">
+                <h5>mobile</h5> +49 151 18 xxx xxx
+            </div>
         </div>
         <div class="col-12 col-md-6">
-          Kontakt 2
+            <div class="card bg-info border-light m-2 p-2">
+                <h5>mail</h5>
+                <a href="mailto:sascha.hagemann@hotmail.com">
+                <div class="text-light">sascha.hagemann[at]hotmail.com</div>
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="row p-3 bg-secondary">
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <a href="https://github.com/SaschaHgMann">
+                <img
+                src="ress/github_logo.png"
+                class="card-img-top img-fluid"
+                alt="Github Logo"
+                
+                />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Github</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <a href="https://codepen.io/saschahgmann">
+                <img
+                src="ress/codepen_logo.jpg"
+                class="card-img-top img-fluid"
+                alt="Codepen Logo"
+                
+                />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Codepen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <a href="https://www.linkedin.com/">
+                <img
+                src="ress/linkedin_logo.jpg"
+                class="card-img-top img-fluid"
+                alt="LinkedIn Logo"
+                
+                />
+            </a>
+            <div class="card-body">
+              <p class="card-text">LinkedIn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-secondary">
+        <div class="col-12 col-md-6">
+                <div class="card border-info m-1">
+                    <div class="card-body">
+                        <h4 class="card-title">About me</h4>
+                        <div class="card-text">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                            similique reiciendis asperiores accusantium quisquam, atque incidunt
+                            sequi accusamus sapiente unde, dicta, debitis ratione hic aliquid
+                            animi rem dolorum laborum nisi!
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            rerum animi quos reprehenderit cumque recusandae officiis eligendi
+                            saepe minima voluptate ullam totam commodi iure ut incidunt id,
+                            repudiandae perspiciatis at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-6" id="bio">
+            <div class="card border-info m-1"> 
+                <div class="card-body">
+                    <h4 class="card-header">Biography</h4>
+                        <p class="card-text">
+                            <ul>
+                                <li>2001</li>
+                                <li>2002</li>
+                                <li>2003</li>
+                                <li>2004</li>
+                                <li>2005</li>
+                            </ul>
+                        </p>
+                </div>
+            </div>
         </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer class="container-fluid">
+
+    </footer>
   </body>
 </html>
